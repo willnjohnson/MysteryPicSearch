@@ -1,2 +1,32 @@
-# MysteryPicSearch
-Reads mystery image, converts it to 10x10 pixel, and applies SSIM algorithm across banners to find likely match.
+# Mystery Pic Search
+
+This Python script helps you search for the hidden image in Neopets' Mystery Pic competition by scanning banners for visual similarity.
+
+**Note:** You'll need to download the banner images yourself (e.g. https://www.drsloth.com/search/?category=18).
+
+## Where to Store Images
+
+* Place **exactly one** image (either `.png` or `.gif`) in the `MysteryPic/` folder.
+* Place **.png banner images** in the `MysteryPic/banners/` folder. Look at previous competitions to figure out what category of banners to download (e.g. Shopkeeper banners).
+  * **Recommendation:** Rename the banner images according to what the image is (you'll need to do your own research), so you know exactly what to guess.
+
+## Features
+
+* **GIF to PNG Conversion:** Automatically converts `.gif` Mystery Pics to `.png` and resizes to 10x10 pixels.
+* **Similarity Scanning:** Uses SSIM to compare the Mystery Pic image against all banners in the folder.
+* **Early Exit Option:** Optional `--early` flag stops scanning when a confident match is found.
+* **Multi-core Processing:** Efficiently scans using all available CPU cores.
+
+## Requirements
+
+Install Python dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## License
+
+This project is open-source and available under the MIT License.
+
+**Disclaimer:** "Neopets" is a registered trademark of Neopets, Inc. This script is an unofficial fan-made helper and is not affiliated with or endorsed by Neopets, Inc.
