@@ -25,6 +25,16 @@ Install Python dependencies using:
 pip install -r requirements.txt
 ```
 
+## Usage
+* Run the script from the command line:
+ > python MysteryPic.py
+
+* To stop scanning once a strong match is found:
+ > python MysteryPic.py --early
+
+## Output
+Results will show in the terminal, including any matches above the threshold (default is 95% similarity). If found, you'll see the banner filename, match probability, and XY coordinates.
+
 ## License
 
 This project is open-source and available under the MIT License.
