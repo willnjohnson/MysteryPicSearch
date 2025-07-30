@@ -2,7 +2,9 @@
 
 This Python script helps you search for the hidden image in Neopets' Mystery Pic competition by scanning banners for visual similarity.
 
-**Note:** You'll need to download the banner images yourself (e.g. https://www.drsloth.com/search/?category=18).
+**Note:** You'll need to download the banner images yourself (e.g. https://www.drsloth.com/search/?category=18 AND https://www.neopets.com/~twidlybee). I recommend naming your images appropriately, like Aisha_Shopkeeper.png, Almost_Abandoned_Attic.png, etc.
+
+***Use Responsibly:** I recommend only using this script, if you're aiming for the gold trophy **once**, or when it's later in the day (i.e. 30 minutes to 1 hour after the Mystery Pic competition starts) and you just want the regular reward.*
 
 ## Where to Store Images
 
